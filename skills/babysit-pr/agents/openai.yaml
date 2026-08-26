@@ -1,0 +1,4 @@
+interface:
+  display_name: "Babysit PR"
+  short_description: "Monitor PR feedback and CI, proposing fixes for approval"
+  default_prompt: "Use $babysit-pr to check the current PR comments and CI, then suggest any fixes."

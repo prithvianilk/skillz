@@ -1,0 +1,4 @@
+interface:
+  display_name: "Raise PR"
+  short_description: "Create a pull request and start CodeRabbit review"
+  default_prompt: "Use $raise-pr to raise a pull request for the current changes and start CodeRabbit PR review."

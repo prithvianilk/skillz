@@ -1,0 +1,4 @@
+interface:
+  display_name: "Merge PR"
+  short_description: "Merge a PR only when CI and reviews are clear"
+  default_prompt: "Use $merge-pr to verify the PR is mergeable and merge it if CI and reviews are clear."
