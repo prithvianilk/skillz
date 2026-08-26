@@ -1,12 +1,12 @@
 {
-  "name": "codex-pr-skills",
+  "name": "skillz",
   "version": "1.0.0",
   "description": "Codex skills for raising, babysitting, and merging GitHub pull requests.",
   "author": {
     "name": "prithvianilk",
     "url": "https://github.com/prithvianilk"
   },
-  "repository": "https://github.com/prithvianilk/codex-pr-skills",
+  "repository": "https://github.com/prithvianilk/skillz",
   "license": "MIT",
   "keywords": ["github", "pull-request", "coderabbit", "code-review"],
   "skills": "./skills/",
