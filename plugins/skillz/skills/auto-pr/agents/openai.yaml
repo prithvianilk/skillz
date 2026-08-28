@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auto PR"
+  short_description: "Raise, monitor, audit, and merge a pull request"
+  default_prompt: "Use $auto-pr to raise the current changes, monitor review and CI, and merge when every gate is clear."
