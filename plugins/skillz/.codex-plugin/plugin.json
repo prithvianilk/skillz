@@ -1,23 +1,24 @@
 {
   "name": "skillz",
-  "version": "1.0.0",
-  "description": "Codex skills for raising, babysitting, and merging GitHub pull requests.",
+  "version": "1.1.0",
+  "description": "Codex skills for raising, monitoring, auditing, and merging GitHub pull requests.",
   "author": {
     "name": "prithvianilk",
     "url": "https://github.com/prithvianilk"
   },
   "repository": "https://github.com/prithvianilk/skillz",
   "license": "MIT",
-  "keywords": ["github", "pull-request", "coderabbit", "code-review"],
+  "keywords": ["github", "pull-request", "coderabbit", "code-review", "automation"],
   "skills": "./skills/",
   "interface": {
     "displayName": "PR Workflow Skills",
-    "shortDescription": "Raise, monitor, and merge GitHub pull requests",
-    "longDescription": "A focused PR workflow for Codex: raise a pull request and start CodeRabbit review, monitor feedback and CI with permission-gated fixes, and merge only when review and CI gates are clear.",
+    "shortDescription": "Raise, monitor, audit, and merge GitHub pull requests",
+    "longDescription": "A focused PR workflow for Codex: run the complete PR lifecycle automatically, or invoke separate skills to raise a pull request, monitor feedback and CI with permission-gated fixes, and merge only when every review and CI gate is clear.",
     "developerName": "prithvianilk",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Write"],
     "defaultPrompt": [
+      "Use $auto-pr to raise the current changes, monitor review and CI, and merge when every gate is clear.",
       "Use $raise-pr to open a PR and start CodeRabbit review.",
       "Use $babysit-pr to inspect PR feedback and CI.",
       "Use $merge-pr to merge when all gates pass."
